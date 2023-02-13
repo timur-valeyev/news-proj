@@ -1,14 +1,14 @@
 import React from 'react'
-
+import classes from "./Post.module.css"
 
 const Post = props => {
     const {title, body} = props
 
     return (
-      <>
-          <h2>{title}</h2>
-          <p>{body}</p>
-      </>
+      <div className={classes.post}>
+          <h2 className={classes.title}>{title}</h2>
+          <p className={classes.body}>{body}</p>
+      </div>
     )
 }
 

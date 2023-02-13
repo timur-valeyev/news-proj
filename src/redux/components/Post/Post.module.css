@@ -1,0 +1,15 @@
+.post {
+    border: 1px solid darkcyan;
+    max-width: 600px;
+    max-height: 150px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.body {
+
+}
