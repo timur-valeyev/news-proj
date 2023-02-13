@@ -1,12 +1,13 @@
 import React from 'react'
 
-//components
 
+const Post = props => {
+    const {title, body} = props
 
-const Post = () => {
     return (
       <>
-          Post
+          <h2>{title}</h2>
+          <p>{body}</p>
       </>
     )
 }

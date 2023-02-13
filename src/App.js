@@ -4,7 +4,7 @@ import React from "react";
 //components
 import Home from "./redux/pages/Home";
 import NotFound from "./redux/pages/NotFound";
-import Post from "./redux/components/Post";
+import FullPost from "./redux/components/FullPost";
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
         <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/posts/:id' element={<Post />} />
+            <Route path='/posts/:id' element={<FullPost />} />
             <Route path='*' element={<NotFound />} />
         </Routes>
     </div>
