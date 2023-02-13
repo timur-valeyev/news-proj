@@ -18,8 +18,8 @@ const Posts = () => {
 
     return (
       <div className={classes.posts}>
-          {!loading ? postsList.map(post =>
-              <Post key={post.id} {...post} />
+          {!loading ? postsList.map((post, index) =>
+              <Post key={`${index}-${Date.now()}`} {...post} />
           ) : <h2>Loading...</h2>}
       </div>
     )

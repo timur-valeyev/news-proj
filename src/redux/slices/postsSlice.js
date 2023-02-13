@@ -6,13 +6,14 @@ const initialState = {
     loading: false,
     error: false
 }
+const API_KEY = '43a3ab7248174b60b7fc1ebd5eeaa4c2'
 
 export const fetchPosts = createAsyncThunk(
     'posts/fetchPosts',
     async (_, thunkAPI) => {
         try {
-            return await axios.get('https://jsonplaceholder.typicode.com/posts?_limit=10').then(response => {
-                return response.data
+            return await axios.get(`https://newsapi.org/v2/everything?q=Apple&from=2023-02-13&sortBy=popularity&apiKey=${API_KEY}`).then(response => {
+                return response.data.articles
             })
         } catch (err) {
             return thunkAPI.rejectWithValue(err)

@@ -2,12 +2,13 @@ import React from 'react'
 import classes from "./Post.module.css"
 
 const Post = props => {
-    const {title, body} = props
+    const {title, urlToImage, description} = props
 
     return (
       <div className={classes.post}>
+          <img src={urlToImage} alt='news-image'/>
           <h2 className={classes.title}>{title}</h2>
-          <p className={classes.body}>{body}</p>
+          <p>{description}</p>
       </div>
     )
 }
