@@ -1,5 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react'
 import classes from './Header.module.css'
+import {Link} from "react-router-dom";
 
 const Header = () => {
     const [searchValue, setSearchValue] = useState('')
@@ -24,6 +25,9 @@ const Header = () => {
 
     return (
         <header className={classes.header}>
+            <div>
+                <Link to='/' >News Blog</Link>
+            </div>
             <div className={classes.inputBlock}>
                 <input
                     className={classes.input}

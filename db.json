@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": "Mat Smith",
+      "title": "The Morning After: A Japanese restaurant combats 'sushi terrorism' with AI cameras",
+      "description": "Many people in Japan have been outraged by a recent trend dubbed \"sushi terrorism.\" Videos across social media show people carrying out all kinds of unhygienic acts, like licking the spoon for a container of green tea powder. Another video, which has more tha…",
+      "url": "https://www.engadget.com/the-morning-after-a-japanese-restaurant-combats-sushi-terrorism-with-ai-cameras-121542434.html",
+      "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2023-02/1ffa7a30-ab91-11ed-bfff-f3704ee0bfa1",
+      "publishedAt": "2023-02-13T12:15:42Z",
+      "content": "Many people in Japan have been outraged by a recent trend dubbed \"sushi terrorism.\" Videos across social media show people carrying out all kinds of unhygienic acts, like licking the spoon for a cont… [+3237 chars]"
+    },
+    {
+      "id": 2,
+      "author": "Florence Ion",
+      "title": "Hacked iPhone 12 Mini Has Ports For USB-C and Lightning",
+      "description": "We’re all waiting for Apple to bring USB-C to the iPhone. But wouldn’t it be neat to be able to put all those old lightning cables to use even after the company switches to USB-C?Read more...",
+      "url": "https://gizmodo.com/iphone-12-mini-usb-c-lightning-ports-hack-apple-chargin-1850109652",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/4ae60977abca4c4a6f48ad237bec495c.png",
+      "publishedAt": "2023-02-13T21:45:00Z",
+      "content": "Were all waiting for Apple to bring USB-C to the iPhone. But wouldnt it be neat to be able to put all those old lightning cables to use even after the company switches to USB-C?\r\nOne YouTuber is gett… [+2122 chars]"
+    },
+    {
+      "id": 3,
+      "author": "Oliver Darcy",
+      "title": "Super Bowl had 113 million viewers, the third most-watched TV program ever",
+      "description": "The Super Bowl delivered super ratings for Fox.",
+      "url": "https://www.cnn.com/2023/02/13/media/super-bowl-lvii-ratings-reliable-sources/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230212214951-08-super-bowl-2023.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-02-14T03:25:10Z",
+      "content": "The Super Bowl delivered super ratings for Fox. \r\nThe face off between the Philadelphia Eagles and Kansas City Chiefs, a nail biter in which the latter team emerged victorious after a game defining p… [+1798 chars]"
+    }
+  ]
+}

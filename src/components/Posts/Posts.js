@@ -16,10 +16,14 @@ const Posts = () => {
         dispatch(fetchPosts())
     }, [dispatch])
 
+
     return (
       <div className={classes.posts}>
-          {!loading ? postsList.map((post, index) =>
-              <Post key={`${index}-${Date.now()}`} {...post} />
+          {!loading ? postsList.map(post =>
+              <Post
+                  key={post.id}
+                  {...post}
+              />
           ) : <h2>Loading...</h2>}
       </div>
     )
