@@ -34,6 +34,19 @@ export const fetchFullPost = createAsyncThunk(
     }
 )
 
+export const searchPost = createAsyncThunk(
+    'posts/searchPost',
+    async (text, thunkAPI) => {
+        try {
+            return await postsApi.searchPost(text).then(response => {
+                return response.data
+            })
+        } catch (err) {
+            return thunkAPI.rejectWithValue(err)
+        }
+    }
+)
+
 export const postSlice = createSlice({
     name: 'posts',
     initialState,
@@ -56,6 +69,16 @@ export const postSlice = createSlice({
                 state.error = null
             })
             .addCase(fetchFullPost.fulfilled, (state, action) => {
+                state.postsList = action.payload
+                state.loading = false
+                state.error = false
+            })
+            .addCase(searchPost.pending, (state) => {
+                state.postsList = []
+                state.loading = true
+                state.error = null
+            })
+            .addCase(searchPost.fulfilled, (state, action) => {
                 state.postsList = action.payload
                 state.loading = false
                 state.error = false
