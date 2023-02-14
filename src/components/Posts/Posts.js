@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 import classes from './Posts.module.css'
 
 //components
-import {fetchPosts} from "../../slices/postsSlice";
+import {fetchPosts} from "../../redux/slices/postsSlice";
 import Post from "../Post";
 
 

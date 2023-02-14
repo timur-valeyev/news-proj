@@ -2,10 +2,10 @@ import {Routes, Route} from "react-router-dom";
 import React from "react";
 
 //components
-import Home from "./redux/pages/Home";
-import NotFound from "./redux/pages/NotFound";
-import FullPost from "./redux/components/FullPost";
-import Layout from "./redux/components/Layout";
+import NotFound from "./pages/NotFound";
+import FullPost from "./components/FullPost";
+import Layout from "./components/Layout";
+import Home from "./pages/Home";
 
 
 function App() {
