@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import {useParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import classes from './Comments.module.css'
@@ -14,31 +14,48 @@ const Comments = () => {
     const dispatch = useDispatch()
     const comments = useSelector(state => state.comments.commentsList)
 
-    const obj = {
-        "id": 6,
-        "firstName": "33Ivan",
-        "lastName": "33Ivanovich",
-        "surName": "33Ivanov",
-        "email": "33ivanov@ivan.kz",
-        "phone": "+77776663322",
-        "comment": "a33333333333333333333333333sd safagasgsa gasgasg ag ag",
-        "postId": 2
-    };
+    //need refactoring
+    const [stateFirstName, setStateFirstName] = useState('')
+    const [stateLastName, setStateLastName] = useState('')
+    const [stateSurName, setStateSurName] = useState('')
+    const [stateEmail, setStateEmail] = useState('')
+    const [statePhone, setStatePhone] = useState('')
+    const [stateComment, setStateComment] = useState('')
 
-    // useEffect(() => {
-    //     dispatch(fetchComments(id))
-    // }, [dispatch])
-
-    const sendComment = () => {
-        dispatch(addComment(obj))
-        dispatch(fetchComments(id))
-    }
-    const email = useInput('', {isEmptyField: true, minLength: 3, emailError: true})
-    const phone = useInput('', {isEmptyField: true, minLength: 6, maxLength: 11, phoneError: true})
     const firstname = useInput('', {isEmptyField: true, minLength: 2, notNumbers: true })
     const lastname = useInput('', {isEmptyField: true, minLength: 2, notNumbers: true })
     const surname = useInput('', {isEmptyField: true, minLength: 2, notNumbers: true })
+    const email = useInput('', {isEmptyField: true, minLength: 3, emailError: true})
+    const phone = useInput('', {isEmptyField: true, minLength: 6, maxLength: 11, phoneError: true})
     const textArea = useInput('', {isEmptyField: true})
+
+    useEffect(() => {
+        setStateFirstName(firstname.value)
+        setStateLastName(lastname.value)
+        setStateSurName(surname.value)
+        setStateEmail(email.value)
+        setStatePhone(phone.value)
+        setStateComment(textArea.value)
+    }, [firstname.value, lastname.value, surname.value, email.value, email.value, phone.value, textArea.value])
+
+
+    const sendComment = () => {
+        const uniqueId = Math.random().toString(36).substring(2);
+
+        const obj = {
+            "id": uniqueId,
+            "firstName": stateFirstName,
+            "lastName": stateLastName,
+            "surName": stateSurName,
+            "email": stateEmail,
+            "phone": statePhone,
+            "comment": stateComment,
+            "postId": 2
+        }
+
+        dispatch(addComment(obj))
+        dispatch(fetchComments(id))
+    }
 
 
     return (
@@ -48,6 +65,7 @@ const Comments = () => {
                 <Comment key={comment.id} {...comment} />
             ))}
             <form className={classes.form}>
+                {/*need refactoring*/}
                 <div className={classes.formHeader}>
                     {(firstname.isDirty && firstname.isEmptyField) && <span style={{color: 'red'}}>Поле не может быть пустым</span>}
                     {(firstname.isDirty && firstname.minLength) && <span style={{color: 'red'}}>Фамилия не может быть меньше 2 символов</span>}
@@ -76,22 +94,18 @@ const Comments = () => {
                     <input onChange={e => phone.onChange(e)} onBlur={e => phone.onBlur(e)} value={phone.value} type="text" placeholder='Номер телефона'/>
                 </div>
                 {(textArea.isDirty && textArea.isEmptyField) && <div style={{color: 'red'}}>Поле не может быть пустым</div>}
-                <textarea placeholder='Введите текст комментария...'/>
-                <button
-                    className={classes.commentButton}
-                    onClick={sendComment}
-                    disabled={
-                        !firstname.validInput ||
-                        !lastname.validInput ||
-                        !surname.validInput ||
-                        !email.validInput ||
-                        !phone.validInput ||
-                        !textArea.validInput
-                    }
-                >
-                    Add comment
-                </button>
+                <textarea onChange={e => textArea.onChange(e)} onBlur={e => textArea.onBlur(e)} value={textArea.value} placeholder='Введите текст комментария...'/>
+
             </form>
+            <button
+                className={classes.commentButton}
+                onClick={sendComment}
+                disabled={
+                    !firstname.validInput || !lastname.validInput || !surname.validInput || !email.validInput || !phone.validInput || !textArea.validInput
+                }
+            >
+                Add comment
+            </button>
         </div>
     )
 }
