@@ -1,0 +1,14 @@
+.comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.commentHeader {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    font-weight: bold;
+}

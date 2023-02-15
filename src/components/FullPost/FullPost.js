@@ -5,6 +5,8 @@ import classes from './FullPost.module.css'
 
 //components
 import {fetchFullPost} from "../../redux/slices/postsSlice";
+import {fetchComments} from "../../redux/slices/commentsSlice";
+import Comments from "../Comments";
 
 
 const FullPost = () => {
@@ -15,6 +17,7 @@ const FullPost = () => {
 
     useEffect(() => {
         dispatch(fetchFullPost(id))
+        dispatch(fetchComments(id))
     }, [dispatch])
 
     return (
@@ -23,11 +26,14 @@ const FullPost = () => {
               <div className={classes.fullPost}
                   key={post.id}>
                   <img src={post.urlToImage} alt=""/>
-                  <h1>{post.title}</h1>
-                  <p>{post.content}</p>
-                  <p>{post.description}</p>
+                  <h1 className={classes.fullPostTitle}>{post.title}</h1>
+                  <div className={classes.fullPostBody}>
+                      <p>{post.content}</p>
+                      <p>{post.description}</p>
+                  </div>
               </div>
           ))}
+        <Comments />
       </>
     )
 }

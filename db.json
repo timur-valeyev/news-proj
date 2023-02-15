@@ -30,5 +30,67 @@
       "publishedAt": "2023-02-14T03:25:10Z",
       "content": "The Super Bowl delivered super ratings for Fox. \r\nThe face off between the Philadelphia Eagles and Kansas City Chiefs, a nail biter in which the latter team emerged victorious after a game defining p… [+1798 chars]"
     }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "firstName": "Ivan",
+      "lastName": "Ivanovich",
+      "surName": "Ivanov",
+      "email": "ivanov@ivan.kz",
+      "phone": "+77776663322",
+      "comment": "asd safagasgsa gasgasg ag ag",
+      "postId": 2
+    },
+    {
+      "id": 2,
+      "firstName": "Ivan",
+      "lastName": "Ivanovich",
+      "surName": "Ivanov",
+      "email": "ivanov@ivan.kz",
+      "phone": "+77776663322",
+      "comment": "qweqwe qweqweqewq we qwe qw eq",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "firstName": "Ivan",
+      "lastName": "Ivanovich",
+      "surName": "Ivanov",
+      "email": "ivanov@ivan.kz",
+      "phone": "+77776663322",
+      "comment": "asd safagasgsa gasgasg ag ag",
+      "postId": 2
+    },
+    {
+      "id": 4,
+      "firstName": "33Ivan",
+      "lastName": "33Ivanovich",
+      "surName": "33Ivanov",
+      "email": "33ivanov@ivan.kz",
+      "phone": "+77776663322",
+      "comment": "a33333333333333333333333333sd safagasgsa gasgasg ag ag",
+      "postId": 2
+    },
+    {
+      "id": 5,
+      "firstName": "33Ivan",
+      "lastName": "33Ivanovich",
+      "surName": "33Ivanov",
+      "email": "33ivanov@ivan.kz",
+      "phone": "+77776663322",
+      "comment": "a33333333333333333333333333sd safagasgsa gasgasg ag ag",
+      "postId": 2
+    },
+    {
+      "id": 6,
+      "firstName": "33Ivan",
+      "lastName": "33Ivanovich",
+      "surName": "33Ivanov",
+      "email": "33ivanov@ivan.kz",
+      "phone": "+77776663322",
+      "comment": "a33333333333333333333333333sd safagasgsa gasgasg ag ag",
+      "postId": 2
+    }
   ]
 }
