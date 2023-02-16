@@ -97,8 +97,6 @@ const Comments = () => {
                 <Comment key={comment.id}  handleOpenModal={handleOpenModal} {...comment} />
             ))}
             <div>
-                <button onClick={handleOpenModal}>Открыть модальное окно</button>
-
             </div>
             <div className={classes.form}>
                 <h2>Написать комментарий</h2>
