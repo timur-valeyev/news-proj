@@ -3,10 +3,10 @@ import classes from './Comment.module.css'
 
 
 const Comment = (props) => {
-    const {firstName, lastName, surName, comment} = props
+    const {firstName, lastName, surName, comment, handleOpenModal} = props
 
     return (
-            <div className={classes.comment}>
+            <div className={classes.comment} onClick={handleOpenModal}>
                 <div className={classes.commentHeader}>
                     <p>{firstName} {lastName} {surName}</p>
                 </div>

@@ -7,6 +7,8 @@ import classes from './Comments.module.css'
 import {addComment, fetchComments} from '../../redux/slices/commentsSlice'
 import Comment from "../Comment"
 import InputField from "../InputField"
+import Modal from "../Modal"
+import UpdateComment from "../UpdateComment"
 
 
 const Comments = () => {
@@ -78,14 +80,26 @@ const Comments = () => {
             dispatch(fetchComments(id))
         }
     }
+    const [isModalOpen, setIsModalOpen] = useState(false)
+
+    const handleOpenModal = () => {
+        setIsModalOpen(true)
+    }
+
+    const handleCloseModal = () => {
+        setIsModalOpen(false)
+    }
 
     return (
         <div className={classes.comments}>
             <h2 className={classes.commentsTitle}>Comments</h2>
             {comments.map((comment) => (
-                <Comment key={comment.id} {...comment} />
+                <Comment key={comment.id}  handleOpenModal={handleOpenModal} {...comment} />
             ))}
+            <div>
+                <button onClick={handleOpenModal}>Открыть модальное окно</button>
 
+            </div>
             <div className={classes.form}>
                 <h2>Написать комментарий</h2>
                 {formErrors.surName && (
@@ -151,7 +165,9 @@ const Comments = () => {
                     Добавить комментарий
                 </button>
             </div>
-
+            <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
+                <UpdateComment id={id} />
+            </Modal>
         </div>
     )
 }
