@@ -1,6 +1,6 @@
 import React from 'react'
-import classes from "./Post.module.css"
-import {Link} from "react-router-dom";
+import classes from './Post.module.css'
+import {Link} from 'react-router-dom'
 
 const Post = props => {
     const {id, title, urlToImage, description} = props

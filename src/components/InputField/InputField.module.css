@@ -1,0 +1,8 @@
+.input {
+    max-height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+}

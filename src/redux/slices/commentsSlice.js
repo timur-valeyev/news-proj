@@ -1,5 +1,5 @@
 import {createAsyncThunk, createSlice} from '@reduxjs/toolkit'
-import {commentsApi} from "../../utils/api/commentsApi";
+import {commentsApi} from '../../utils/api/commentsApi'
 
 
 const initialState = {

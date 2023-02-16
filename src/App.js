@@ -1,11 +1,11 @@
-import {Routes, Route} from "react-router-dom";
-import React from "react";
+import {Routes, Route} from 'react-router-dom'
+import React from 'react'
 
 //components
-import NotFound from "./pages/NotFound";
-import FullPost from "./components/FullPost";
-import Layout from "./components/Layout";
-import Home from "./pages/Home";
+import NotFound from './pages/NotFound'
+import FullPost from './components/FullPost'
+import Layout from './components/Layout'
+import Home from './pages/Home'
 
 
 function App() {

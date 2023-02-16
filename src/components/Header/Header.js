@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './Header.module.css'
-import {Link} from "react-router-dom";
-import SearchBlock from "../SearchBlock";
+import {Link} from 'react-router-dom'
+import SearchBlock from '../SearchBlock'
 
 
 const Header = () => {

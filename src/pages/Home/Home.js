@@ -1,7 +1,7 @@
 import React from 'react'
 
 //components
-import Posts from "../../components/Posts";
+import Posts from '../../components/Posts'
 
 
 const Home = () => {

@@ -1,12 +1,12 @@
 import React, {useEffect} from 'react'
-import {useParams} from "react-router-dom";
-import {useDispatch, useSelector} from "react-redux";
+import {useParams} from 'react-router-dom'
+import {useDispatch, useSelector} from 'react-redux'
 import classes from './FullPost.module.css'
 
 //components
-import {fetchFullPost} from "../../redux/slices/postsSlice";
-import {fetchComments} from "../../redux/slices/commentsSlice";
-import Comments from "../Comments";
+import {fetchFullPost} from '../../redux/slices/postsSlice'
+import {fetchComments} from '../../redux/slices/commentsSlice'
+import Comments from '../Comments'
 
 
 const FullPost = () => {
@@ -25,7 +25,7 @@ const FullPost = () => {
           {fullPost.map(post => (
               <div className={classes.fullPost}
                   key={post.id}>
-                  <img src={post.urlToImage} alt=""/>
+                  <img src={post.urlToImage} alt=''/>
                   <h1 className={classes.fullPostTitle}>{post.title}</h1>
                   <div className={classes.fullPostBody}>
                       <p>{post.content}</p>

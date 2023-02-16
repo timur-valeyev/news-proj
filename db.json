@@ -103,26 +103,6 @@
       "postId": 2
     },
     {
-      "id": 8,
-      "firstName": "adada",
-      "lastName": "dasdas",
-      "surName": "dasdad",
-      "email": "eqwe@qweq.qee",
-      "phone": "88007776363",
-      "comment": "",
-      "postId": 2
-    },
-    {
-      "id": 9,
-      "firstName": "asdad",
-      "lastName": "asdada",
-      "surName": "dadasd",
-      "email": "qeqwe@qwe.kz",
-      "phone": "86663332211",
-      "comment": "",
-      "postId": 2
-    },
-    {
       "id": "x5axejaddnm",
       "firstName": "eqweqw",
       "lastName": "eqweqw",
@@ -151,6 +131,36 @@
       "phone": "87776663322",
       "comment": "adasdadadadadad asd ada d ",
       "postId": 2
+    },
+    {
+      "id": "p6ffwardip",
+      "firstName": "фвфвфв",
+      "lastName": "хехехех",
+      "surName": "хахаах",
+      "email": "qeqwe@wdwqd.ru",
+      "phone": "1912991939",
+      "comment": "тестовый коммент",
+      "postId": "3"
+    },
+    {
+      "id": "5eqw5i4avjb",
+      "firstName": "eqwe",
+      "lastName": "qeqweqweq",
+      "surName": "qeqweqe",
+      "email": "qwrqr@qqqe.ru",
+      "phone": "0123456789",
+      "comment": "wqeqweqee",
+      "postId": "3"
+    },
+    {
+      "id": "hiez35ktu",
+      "firstName": "qeqe",
+      "lastName": "qeqe",
+      "surName": "eqe",
+      "email": "rqrqrqrq@qewqeq.ru",
+      "phone": "0123456789",
+      "comment": "dqwdqwdq",
+      "postId": "3"
     }
   ]
 }

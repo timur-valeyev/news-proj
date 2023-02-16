@@ -1,10 +1,10 @@
 import React, {useEffect} from 'react'
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch, useSelector} from 'react-redux'
 import classes from './Posts.module.css'
 
 //components
-import {fetchPosts} from "../../redux/slices/postsSlice";
-import Post from "../Post";
+import {fetchPosts} from '../../redux/slices/postsSlice'
+import Post from '../Post'
 
 
 const Posts = () => {

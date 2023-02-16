@@ -3,8 +3,8 @@ import {Outlet} from 'react-router-dom'
 import classes from './Layout.module.css'
 
 //components
-import Footer from "../Footer";
-import Header from "../Header";
+import Footer from '../Footer'
+import Header from '../Header'
 
 const Layout = () => {
     return (

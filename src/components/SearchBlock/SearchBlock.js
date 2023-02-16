@@ -1,9 +1,9 @@
 import React, {useEffect, useRef, useState} from 'react'
-import {useDispatch} from "react-redux";
+import {useDispatch} from "react-redux"
 import classes from './SearchBlock.module.css'
 
 //components
-import {searchPost} from "../../redux/slices/postsSlice";
+import {searchPost} from "../../redux/slices/postsSlice"
 
 
 const SearchBlock = () => {
