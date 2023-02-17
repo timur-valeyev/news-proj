@@ -11,20 +11,47 @@ const Posts = () => {
     const dispatch = useDispatch()
     const {loading} = useSelector(state => state.posts)
     const postsList = useSelector(state => state.posts.postsList)
+    const searchResult = useSelector(state => state.posts.searchResult)
 
     useEffect(() => {
         dispatch(fetchPosts())
     }, [dispatch])
 
+    if (loading) {
+        return (
+            <div className={classes.posts}>
+               <h2>Loading...</h2>
+            </div>
+        )
+    }
+    if(searchResult !== undefined) {
+        if(searchResult.length === 0) {
+            return (
+                <div className={classes.posts}>
+                    ничего не найдено
+                </div>
+            )
+        }
+        return (
+            <div className={classes.posts}>
+                { searchResult.map(post =>
+                    <Post
+                        key={post.id}
+                        {...post}
+                    />
+                )}
+            </div>
+        )
+    }
 
     return (
       <div className={classes.posts}>
-          {!loading ? postsList.map(post =>
+          {postsList.map(post =>
               <Post
                   key={post.id}
                   {...post}
               />
-          ) : <h2>Loading...</h2>}
+          )}
       </div>
     )
 }

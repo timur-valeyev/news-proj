@@ -8,6 +8,7 @@ import {searchPost} from "../../redux/slices/postsSlice"
 
 const SearchBlock = () => {
     const [searchValue, setSearchValue] = useState('')
+    const [previousSearchValue, setPreviousSearchValue] = useState('')
     const inputRef = useRef()
     const dispatch = useDispatch()
 
@@ -16,7 +17,10 @@ const SearchBlock = () => {
     }
 
     const onSearch = () => {
-        if (searchValue !== '') dispatch(searchPost(searchValue))
+        if(previousSearchValue !== searchValue) {
+            dispatch(searchPost(searchValue))
+            setPreviousSearchValue(searchValue)
+        }
     }
 
     const handleKeyDown = (event) => {

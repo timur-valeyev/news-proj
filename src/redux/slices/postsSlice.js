@@ -4,6 +4,7 @@ import {postsApi} from '../../utils/api/postsApi'
 
 const initialState = {
     postsList: [],
+    searchResult: undefined,
     loading: false,
     error: false
 }
@@ -34,23 +35,20 @@ export const fetchFullPost = createAsyncThunk(
     }
 )
 
-export const searchPost = createAsyncThunk(
-    'posts/searchPost',
-    async (text, thunkAPI) => {
-        try {
-            return await postsApi.searchPost(text).then(response => {
-                return response.data
-            })
-        } catch (err) {
-            return thunkAPI.rejectWithValue(err)
-        }
-    }
-)
-
 export const postSlice = createSlice({
     name: 'posts',
     initialState,
-    reducers: {},
+    reducers: {
+        searchPost(state, action) {
+            const  text  = action.payload
+            console.log(action.payload)
+            if(text === '') {
+                state.searchResult = undefined
+            } else {
+                state.searchResult = state.postsList.filter(post => post.title.includes(text))
+            }
+        }
+    },
     extraReducers: (builder) => {
         builder
             .addCase(fetchPosts.pending, (state) => {
@@ -73,16 +71,6 @@ export const postSlice = createSlice({
                 state.loading = false
                 state.error = false
             })
-            .addCase(searchPost.pending, (state) => {
-                state.postsList = []
-                state.loading = true
-                state.error = null
-            })
-            .addCase(searchPost.fulfilled, (state, action) => {
-                state.postsList = action.payload
-                state.loading = false
-                state.error = false
-            })
             .addMatcher(isError, (state, action) => {
                 state.error = action.payload
                 state.loading = false
@@ -93,5 +81,7 @@ export const postSlice = createSlice({
 function isError(action) {
     return action.type.endsWith('rejected')
 }
+
+export const { searchPost } = postSlice.actions
 
 export default postSlice.reducer
