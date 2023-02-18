@@ -22,6 +22,19 @@ export const fetchPosts = createAsyncThunk(
     }
 )
 
+export const fetchFullPost = createAsyncThunk(
+    'posts/fetchFullPost',
+    async (id, thunkAPI) => {
+        try {
+            return await postsApi.getFullPost(id).then(response => {
+                return response.data
+            })
+        } catch (err) {
+            return thunkAPI.rejectWithValue(err)
+        }
+    }
+)
+
 export const postSlice = createSlice({
     name: 'posts',
     initialState,
@@ -33,9 +46,6 @@ export const postSlice = createSlice({
             } else {
                 state.searchResult = state.postsList.filter(post => post.title.toLowerCase().includes(text))
             }
-        },
-        fetchFullPost(state, action) {
-            state.postsList = state.postsList.filter(post => post.id === Number(action.payload))
         }
     },
     extraReducers: (builder) => {
@@ -46,6 +56,16 @@ export const postSlice = createSlice({
                 state.error = null
             })
             .addCase(fetchPosts.fulfilled, (state, action) => {
+                state.postsList = action.payload
+                state.loading = false
+                state.error = false
+            })
+            .addCase(fetchFullPost.pending, (state) => {
+                state.postsList = []
+                state.loading = true
+                state.error = null
+            })
+            .addCase(fetchFullPost.fulfilled, (state, action) => {
                 state.postsList = action.payload
                 state.loading = false
                 state.error = false
@@ -61,6 +81,6 @@ function isError(action) {
     return action.type.endsWith('rejected')
 }
 
-export const { searchPost, fetchFullPost } = postSlice.actions
+export const { searchPost } = postSlice.actions
 
 export default postSlice.reducer
