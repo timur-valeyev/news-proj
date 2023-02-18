@@ -5,6 +5,7 @@ import classes from './Posts.module.css'
 //components
 import {fetchPosts} from '../../redux/slices/postsSlice'
 import Post from '../Post'
+import NotFound from "../../pages/NotFound";
 
 
 const Posts = () => {
@@ -28,7 +29,8 @@ const Posts = () => {
         if(searchResult.length === 0) {
             return (
                 <div className={classes.posts}>
-                    ничего не найдено
+                    <NotFound />
+                    <h2>Повторите поиск...</h2>
                 </div>
             )
         }

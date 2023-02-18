@@ -8,7 +8,7 @@ const Post = props => {
     return (
       <div className={classes.post}>
           <img src={urlToImage} alt='news-image'/>
-          <Link to={`posts/${id}`}>
+          <Link to={`post/${id}`}>
               <h2 className={classes.title}>{title}</h2>
           </Link>
           <p>{description}</p>
