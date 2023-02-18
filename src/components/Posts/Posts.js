@@ -5,7 +5,7 @@ import classes from './Posts.module.css'
 //components
 import {fetchPosts} from '../../redux/slices/postsSlice'
 import Post from '../Post'
-import NotFound from "../../pages/NotFound";
+import NotFound from "../../pages/NotFound"
 
 
 const Posts = () => {
@@ -19,12 +19,9 @@ const Posts = () => {
     }, [dispatch])
 
     if (loading) {
-        return (
-            <div className={classes.posts}>
-               <h2>Loading...</h2>
-            </div>
-        )
+        return <h2>Загрузка...</h2>
     }
+
     if(searchResult !== undefined) {
         if(searchResult.length === 0) {
             return (

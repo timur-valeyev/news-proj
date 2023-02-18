@@ -28,10 +28,9 @@ const Modal = ({ isOpen, onClose, children }) => {
     }, [isOpen, onClose])
 
     return isOpen ? ReactDOM.createPortal(
-        <div className="modal"  ref={modalRef}>
+        <div className="modal" ref={modalRef}>
             <div className={classes.modal}>
                 {children}
-                <button className="close-button" onClick={onClose}>Close</button>
             </div>
         </div>,
         document.body

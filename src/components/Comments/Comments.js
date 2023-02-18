@@ -7,15 +7,13 @@ import classes from './Comments.module.css'
 import {addComment, fetchComments} from '../../redux/slices/commentsSlice'
 import Comment from "../Comment"
 import InputField from "../InputField"
-import Modal from "../Modal"
-import UpdateComment from "../UpdateComment"
 
 
 const Comments = () => {
     const {id} = useParams()
     const dispatch = useDispatch()
     const comments = useSelector((state) => state.comments.commentsList)
-
+    const {loading} = useSelector(state => state.comments)
     const [formErrors, setFormErrors] = useState({})
     const [formData, setFormData] = useState({
         firstName: '',
@@ -25,6 +23,10 @@ const Comments = () => {
         phone: '',
         comment: ''
     })
+
+    if (loading) {
+        return <h2>Загрузка...</h2>
+    }
 
     const handleInputChange = (event) => {
         const {name, value} = event.target
@@ -80,21 +82,15 @@ const Comments = () => {
             dispatch(fetchComments(id))
         }
     }
-    const [isModalOpen, setIsModalOpen] = useState(false)
 
-    const handleOpenModal = () => {
-        setIsModalOpen(true)
-    }
 
-    const handleCloseModal = () => {
-        setIsModalOpen(false)
-    }
+
 
     return (
         <div className={classes.comments}>
             <h2 className={classes.commentsTitle}>Comments</h2>
             {comments.map((comment) => (
-                <Comment key={comment.id}  handleOpenModal={handleOpenModal} {...comment} />
+                <Comment key={comment.id}  {...comment} />
             ))}
             <div>
             </div>
@@ -163,9 +159,6 @@ const Comments = () => {
                     Добавить комментарий
                 </button>
             </div>
-            <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
-                <UpdateComment id={id} />
-            </Modal>
         </div>
     )
 }

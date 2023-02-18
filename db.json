@@ -34,13 +34,13 @@
   "comments": [
     {
       "id": 1,
-      "firstName": "Ivan",
-      "lastName": "Ivanovich",
-      "surName": "Ivanov",
-      "email": "ivanov@ivan.kz",
+      "firstName": "уйц",
+      "lastName": "Ivanуйцвovich",
+      "surName": "Ivaцысфысnov",
+      "email": "ivanoфысыфсv@ivan.kz",
       "phone": "+77776663322",
-      "comment": "asd safagasgsa gasgasg ag ag",
-      "postId": 2
+      "comment": "хапрпрпрпр\n",
+      "postId": 1
     },
     {
       "id": 2,
@@ -49,7 +49,7 @@
       "surName": "Ivanov",
       "email": "ivanov@ivan.kz",
       "phone": "+77776663322",
-      "comment": "qweqwe qweqweqewq we qwe qw eq",
+      "comment": "хыхы444",
       "postId": 1
     },
     {
