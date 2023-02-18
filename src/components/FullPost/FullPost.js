@@ -14,10 +14,10 @@ const FullPost = () => {
     const dispatch = useDispatch()
     const fullPost = useSelector(state => state.posts.postsList)
 
-
     useEffect(() => {
         dispatch(fetchFullPost(id))
         dispatch(fetchComments(id))
+        window.scrollTo(0, 0);
     }, [dispatch])
 
     return (
