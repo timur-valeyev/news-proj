@@ -56,6 +56,19 @@ export const updateComment = createAsyncThunk(
     }
 )
 
+export const deleteComment = createAsyncThunk(
+    'comments/deleteComment',
+    async (id, thunkAPI) => {
+        try {
+            return await commentsApi.deleteComment(id).then(response => {
+                return response.data
+            })
+        } catch (err) {
+            return thunkAPI.rejectWithValue(err)
+        }
+    }
+)
+
 export const commentsSlice = createSlice({
     name: 'comments',
     initialState,
@@ -78,16 +91,23 @@ export const commentsSlice = createSlice({
                 state.error = null
             })
             .addCase(addComment.fulfilled, (state, action) => {
-                console.log(action.payload)
                 state.commentsList = action.payload
                 state.loading = false
+                state.error = false
+            })
+            .addCase(updateComment.pending, (state) => {
+                state.loading = true
                 state.error = false
             })
             .addCase(updateComment.fulfilled, (state, action) => {
                 state.commentsList = action.payload
             })
-            .addCase(updateComment.pending, (state) => {
-                state.status = 'loading'
+            .addCase(deleteComment.pending, (state) => {
+                state.loading = true
+                state.error = false
+            })
+            .addCase(deleteComment.fulfilled, (state, action) => {
+                state.commentsList = action.payload
             })
             .addMatcher(isError, (state, action) => {
                 state.error = action.payload

@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
 }
 .commentsTitle {
     margin-bottom: 20px;
@@ -63,5 +64,5 @@ textarea {
 .error {
     color: red;
     display: block;
-    margin-top: 5px;
+    margin: 5px 0;
 }

@@ -2,33 +2,203 @@
   "posts": [
     {
       "id": 1,
-      "author": "Mat Smith",
-      "title": "The Morning After: A Japanese restaurant combats 'sushi terrorism' with AI cameras",
-      "description": "Many people in Japan have been outraged by a recent trend dubbed \"sushi terrorism.\" Videos across social media show people carrying out all kinds of unhygienic acts, like licking the spoon for a container of green tea powder. Another video, which has more tha…",
-      "url": "https://www.engadget.com/the-morning-after-a-japanese-restaurant-combats-sushi-terrorism-with-ai-cameras-121542434.html",
-      "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2023-02/1ffa7a30-ab91-11ed-bfff-f3704ee0bfa1",
-      "publishedAt": "2023-02-13T12:15:42Z",
-      "content": "Many people in Japan have been outraged by a recent trend dubbed \"sushi terrorism.\" Videos across social media show people carrying out all kinds of unhygienic acts, like licking the spoon for a cont… [+3237 chars]"
+      "author": "Kevin Helms",
+      "title": "Economist Warns the Fed Can't Reach Inflation Target Without 'Crushing' US Economy – Economics Bitcoin News - Bitcoin News",
+      "description": "Economist Mohamed El-Erian has warned that the Federal Reserve cannot get to its inflation target without crushing the U.S. economy.",
+      "url": "https://news.bitcoin.com/economist-warns-the-fed-cant-reach-inflation-target-without-crushing-us-economy/",
+      "urlToImage": "https://static.news.bitcoin.com/wp-content/uploads/2023/02/crush-economy.jpg",
+      "publishedAt": "2023-02-19T03:31:57Z",
+      "content": "Economist Mohamed El-Erian, Allianz’s chief economic advisor and chair of Gramercy Funds Management, has warned that the Federal Reserve cannot achieve its 2% inflation target without crushing the U.… [+3001 chars]"
     },
     {
       "id": 2,
-      "author": "Florence Ion",
-      "title": "Hacked iPhone 12 Mini Has Ports For USB-C and Lightning",
-      "description": "We’re all waiting for Apple to bring USB-C to the iPhone. But wouldn’t it be neat to be able to put all those old lightning cables to use even after the company switches to USB-C?Read more...",
-      "url": "https://gizmodo.com/iphone-12-mini-usb-c-lightning-ports-hack-apple-chargin-1850109652",
-      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/4ae60977abca4c4a6f48ad237bec495c.png",
-      "publishedAt": "2023-02-13T21:45:00Z",
-      "content": "Were all waiting for Apple to bring USB-C to the iPhone. But wouldnt it be neat to be able to put all those old lightning cables to use even after the company switches to USB-C?\r\nOne YouTuber is gett… [+2122 chars]"
+      "author": null,
+      "title": "How ChatGPT Sparked 'Gold Rush' In Silicon Valley - NDTV",
+      "description": "ChatGPT, Silicon Valley's latest app sensation, has investors rushing to find the next big thing in generative AI, the technology that some hail as the beginning of a new era in big tech.",
+      "url": "https://www.ndtv.com/world-news/why-investors-think-chatgpt-could-spark-gold-rush-in-silicon-valley-3795111",
+      "urlToImage": "https://c.ndtvimg.com/2023-01/6uld4jdg_chatgpt-getty_625x300_17_January_23.jpg",
+      "publishedAt": "2023-02-19T02:44:00Z",
+      "content": "ChatGPT has become one of the fastest growing apps ever.\r\nSan Francisco: ChatGPT, Silicon Valley's latest app sensation, has investors rushing to find the next big thing in generative AI, the technol… [+4275 chars]"
     },
     {
       "id": 3,
-      "author": "Oliver Darcy",
-      "title": "Super Bowl had 113 million viewers, the third most-watched TV program ever",
-      "description": "The Super Bowl delivered super ratings for Fox.",
-      "url": "https://www.cnn.com/2023/02/13/media/super-bowl-lvii-ratings-reliable-sources/index.html",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230212214951-08-super-bowl-2023.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2023-02-14T03:25:10Z",
-      "content": "The Super Bowl delivered super ratings for Fox. \r\nThe face off between the Philadelphia Eagles and Kansas City Chiefs, a nail biter in which the latter team emerged victorious after a game defining p… [+1798 chars]"
+      "author": "Sasha Pezenik",
+      "title": "Abbott under investigation by SEC and FTC for infant formula business - ABC News",
+      "description": "Abbott said they are cooperating with the government investigations.",
+      "url": "https://abcnews.go.com/Health/abbott-investigation-sec-ftc-infant-formula-business/story?id=97313124",
+      "urlToImage": "https://s.abcnews.com/images/GMA/similac-rt-rc-220512_1652360004603_hpMain_16x9_992.jpg",
+      "publishedAt": "2023-02-19T01:25:01Z",
+      "content": "Abbott is being investigated by the Securities and Exchange Commission, as well as the Federal Trade Commission, in relation to their infant formula business, the company disclosed in a new SEC filin… [+3062 chars]"
+    },
+    {
+      "id": 4,
+      "author": "Ali B.",
+      "title": "Bitcoin Price Prediction as BTC Spikes Above $24000 – Where is the Next BTC Target? - Cryptonews",
+      "description": "Bitcoin, the world's most valuable and well-known cryptocurrency, has once again seen a significant spike in price, surpassing the $24,000...",
+      "url": "https://cryptonews.com/news/bitcoin-price-prediction-as-btc-spikes-above-24000-where-next-btc-target.htm",
+      "urlToImage": "https://v2.cimg.co/news/105340/257804/market-roundup-18-1.jpg",
+      "publishedAt": "2023-02-19T01:04:00Z",
+      "content": "Bitcoin, the world's most valuable and well-known cryptocurrency, has once again seen a significant spike in price, surpassing the $24,000 mark for the first time in its history. This recent surge in… [+5157 chars]"
+    },
+    {
+      "id": 5,
+      "author": "Simrin Singh",
+      "title": "Twitter to disable two-factor authentication by text for non-Twitter Blue subscribers - CBS News",
+      "description": "Two-factor authentication is a tool which requires users to enter a security code or key — in addition to their normal password — in order to gain access to their accounts.",
+      "url": "https://www.cbsnews.com/news/twitter-to-disable-two-factor-authentication-by-text-non-twitter-blue-subscribers/",
+      "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2023/02/18/11138914-dd74-44a4-b97e-5c30fae31fc1/thumbnail/1200x630/f58522bed59dd663558855ca51c42252/gettyimages-1246936441.jpg",
+      "publishedAt": "2023-02-19T00:01:25Z",
+      "content": "Twitter announced Friday that users who do not subscribe to Twitter Blue will soon have to give up using text messages as a two-factor authentication method to secure their accounts.\r\nThe social medi… [+1401 chars]"
+    },
+    {
+      "id": 6,
+      "author": "Produced by Digital Editors",
+      "title": "Where Does the Word Maverick Come From in the Ford Maverick? - MotorBiscuit",
+      "description": "The Ford Maverick is quickly becoming one of the most popular trucks on the road. The origins of its name are not what people may think.",
+      "url": "https://www.motorbiscuit.com/where-does-word-maverick-come-from-in-ford-maverick/",
+      "urlToImage": "https://www.motorbiscuit.com/wp-content/uploads/2023/01/white-2023-Ford-Maverick-Tremor-model-on-dirt.jpg?w=1200",
+      "publishedAt": "2023-02-18T23:53:21Z",
+      "content": "The Ford Maverick is making waves in the compact pickup market with its innovative design and impressive capabilities. This new addition to the Ford family packs a punch in a compact package, deliver… [+3511 chars]"
+    },
+    {
+      "id": 7,
+      "author": "Kevin Helms",
+      "title": "Bank of America, Goldman Sachs, JPMorgan, UBS Share Predictions About Further Fed Rate Hikes – Economics Bitcoin News - Bitcoin News",
+      "description": "Bank of America, Goldman Sachs, JPMorgan, and UBS have shared their predictions about further interest rates hikes by the Federal Reserve.",
+      "url": "https://news.bitcoin.com/bank-of-america-goldman-sachs-jpmorgan-ubs-share-predictions-further-fed-rate-hikes/",
+      "urlToImage": "https://static.news.bitcoin.com/wp-content/uploads/2023/02/bank-of-america-goldman-sachs-jpmorgan-ubs.jpg",
+      "publishedAt": "2023-02-18T23:31:44Z",
+      "content": "Bank of America, Goldman Sachs, JPMorgan, and UBS have shared their predictions about the Federal Reserve raising interest rates further. Bank of America and Goldman Sachs, for example, now expect th… [+3989 chars]"
+    },
+    {
+      "id": 8,
+      "author": null,
+      "title": "Crypto collapse: SEC tightening crypto custody rules, why you can't cash out your BUSD, Binance and Catherine Coley, SEC charges Terra-Luna - David Gerard",
+      "description": "No, no, not Groundskeeper Willie.",
+      "url": "https://davidgerard.co.uk/blockchain/2023/02/18/crypto-collapse-sec-tightening-crypto-custody-rules-why-you-cant-cash-out-your-busd-binance-and-catherine-coley-sec-charges-terra-luna/",
+      "urlToImage": "https://davidgerard.co.uk/blockchain/wp-content/uploads/2023/02/groundskeeper-willie-gensler.jpg",
+      "publishedAt": "2023-02-18T23:19:13Z",
+      "content": "By Amy Castor and David Gerard\r\nWeve been saying for a while now how everyone in crypto is in everyone elses pockets and how that makes the 2022 crypto collapse very like the 2008 financial crisis. I… [+13826 chars]"
+    },
+    {
+      "id": 9,
+      "author": "Jules Wang",
+      "title": "Paramount+ ascends new heights with price hike thanks to Showtime merger - Android Police",
+      "description": "From optional bundle to all-inclusive this summer",
+      "url": "https://www.androidpolice.com/paramount-plus-price-hike-showtime-bundle/",
+      "urlToImage": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2021/01/19/ParamountPlusHero.png",
+      "publishedAt": "2023-02-18T23:00:00Z",
+      "content": "We suspect there are a fair number of Star Trek fans in the Android Police readership, so we're writing about this move in the streaming wars just to keep you one step ahead. After all, Paramount Glo… [+1422 chars]"
+    },
+    {
+      "id": 10,
+      "author": "Fox News",
+      "title": "‘Human composting’ on the rise as ‘green funerals’ become increasingly popular - New York Post ",
+      "description": "Unlike traditional burials that use toxic chemicals, only biodegradable substances are used during the burial process.",
+      "url": "https://nypost.com/2023/02/18/human-composting-on-the-rise-as-green-funerals-become-increasingly-popular/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/02/composting-comp-1.jpg?quality=75&strip=all&w=1024",
+      "publishedAt": "2023-02-18T22:41:00Z",
+      "content": "The push for environmental consciousness has sparked the rise of not only green energy initiatives, but now also the move to “green burials” or “human composting” practices over more traditional meth… [+3459 chars]"
+    },
+    {
+      "id": 11,
+      "author": "Shanthi Rexaline",
+      "title": "Cathie Wood Chimes In On The Tesla Vs. BYD Debate: 'Charlie Munger And Many On Wall Street Do Not Underst - Benzinga",
+      "description": "After billionaire investor Charlie Munger came out all guns blazing about Chinese electric vehicle startup BYD Manufacturing Company Limited’s (OTC:",
+      "url": "https://www.benzinga.com/news/23/02/30972092/cathie-wood-chimes-in-on-the-tesla-vs-byd-debate-charlie-munger-and-many-on-wall-street-do-not-under",
+      "urlToImage": "https://cdn.benzinga.com/files/images/story/2023/02/18/wood_byd.jpg?width=1200&height=800&fit=crop",
+      "publishedAt": "2023-02-18T22:08:09Z",
+      "content": "After billionaire investor Charlie Munger came out all guns blazing about Chinese electric vehicle startup BYD Manufacturing Company Limiteds BYDDYBYDDF superiority over Tesla, Inc. TSLA, Ark Invests… [+2228 chars]"
+    },
+    {
+      "id": 12,
+      "author": "Mike Snider, USA TODAY",
+      "title": "Starbucks Frappuccino drinks recalled for potential glass in beverages - USA TODAY",
+      "description": "More than 300,000 bottles of Starbucks Frappuccino Vanilla Chilled Coffee Drink were voluntarily recalled by PepsiCo for possible glass in the drinks.",
+      "url": "https://www.usatoday.com/story/money/food/2023/02/18/starbucks-frappuccino-drinks-recalled-potential-glass/11292169002/",
+      "urlToImage": "https://www.gannett-cdn.com/presto/2022/11/17/USAT/5938b9e6-8ef3-4cf2-b1f0-8442b099cb0e-AP_Starbucks_Strikes.jpg?auto=webp&crop=5212,2932,x0,y265&format=pjpg&width=1200",
+      "publishedAt": "2023-02-18T22:03:30Z",
+      "content": "More than 300,000 bottles of Starbucks Vanilla Frappuccino chilled coffee drinks have been recalled because of potential glass in the beverage.\r\nPepsiCo, which distributes Starbucks brand ready-to-dr… [+1231 chars]"
+    },
+    {
+      "id": 13,
+      "author": null,
+      "title": "Consumer Reports' Best Cars of 2023 Are Mostly Toyotas and/or Electrified - The Drive",
+      "description": "Consumer Reports' new ten top picks list for 2023 was dominated by Toyota, hybrids, and electric vehicles.",
+      "url": "https://www.thedrive.com/news/consumer-reports-best-cars-of-2023-are-mostly-toyotas-and-or-electrified#article",
+      "urlToImage": "https://www.thedrive.com/uploads/2023/02/18/CR-Top-Ten-1-of-1.jpg?auto=webp",
+      "publishedAt": "2023-02-18T21:32:13Z",
+      "content": "Every year, Consumer reports compiles a list of the ten best cars on sale, based on a combination of performance, safety, reliability, and owner satisfaction. Toyota typically dominates the list, so … [+2399 chars]"
+    },
+    {
+      "id": 14,
+      "author": "Editorial Staff",
+      "title": "SEC sues Do Kwon, Paxos ready to litigate, SBF's VPN: Hodler's... - Cointelegraph",
+      "description": "SBF's bail conditions at risk after VPN access, SEC sues Paxos, as well as Terraform Labs and its founder Do Kwon.",
+      "url": "https://cointelegraph.com/magazine/sec-sues-do-kwon-paxos-ready-to-litigate-sbfs-vpn-hodlers-digest-feb-12-18/",
+      "urlToImage": "https://cointelegraph.com/magazine/wp-content/uploads/2023/02/Feb-18-scaled.jpg",
+      "publishedAt": "2023-02-18T21:27:48Z",
+      "content": "Top Stories This Week\r\nPaxos categorically disagrees with the SEC that BUSD is a security\r\nThe United States Securities and Exchange Commission (SEC) has defined the stablecoin Binance USD (BUSD) as … [+7712 chars]"
+    },
+    {
+      "id": 15,
+      "author": "Conor Devitt",
+      "title": "SEC Puts Crypto-Friendly Celebrities on Notice, Fines NBA Legend Paul Pierce $1,400,000 for Plugging Ethere... - The Daily Hodl",
+      "description": "The U.S. Securities and Exchange Commission (SEC) has its radar locked on celebrities endorsing crypto projects.",
+      "url": "https://dailyhodl.com/2023/02/18/sec-puts-crypto-friendly-celebrities-on-notice-fines-nba-legend-paul-pierce-1400000-for-plugging-ethereummax/",
+      "urlToImage": "https://dailyhodl.com/wp-content/uploads/2023/02/sec-officially-charges-terra.jpg",
+      "publishedAt": "2023-02-18T21:00:23Z",
+      "content": "The U.S. Securities and Exchange Commission (SEC) has its radar locked on celebrities endorsing crypto projects.\r\nThe regulator announced on Friday that it brought charges against retired NBA legend … [+1662 chars]"
+    },
+    {
+      "id": 16,
+      "author": "Kristine Solomon",
+      "title": "10 best deals from Target's Presidents' Day sale — up to 50% off Dyson, Apple, more - Yahoo Life",
+      "description": "Plus, score an iconic KitchenAid stand mixer for $170 off and Reebok walking shoes for a mere $40 (from $80).",
+      "url": "https://www.yahoo.com/lifestyle/target-presidents-day-sale-205404741.html",
+      "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2023-02/66de8910-afcd-11ed-9bfb-66945d830b45",
+      "publishedAt": "2023-02-18T20:54:36Z",
+      "content": "The Target Presidents' Day sale has all your favorites plus Target exclusives for up to more than half off! (Photo: Target)\r\nDeal hunting season is open! Presidents' Day sales means deals galore all … [+3354 chars]"
+    },
+    {
+      "id": 17,
+      "author": "Shanthi Rexaline",
+      "title": "Tesla Eyeing Further Vertical Integration? Elon Musk-Led Company Considering Bid For This Lithium Miner: - Benzinga",
+      "description": "Tesla, Inc.",
+      "url": "https://www.benzinga.com/m-a/23/02/30971675/tesla-eyeing-further-vertical-integration-elon-musk-led-company-considering-bid-for-this-lithium-min",
+      "urlToImage": "https://cdn.benzinga.com/files/images/story/2023/02/18/tesla_lithium.jpg?width=1200&height=800&fit=crop",
+      "publishedAt": "2023-02-18T19:39:39Z",
+      "content": "Tesla, Inc. TSLA is the most vertically integrated electric vehicle maker and therefore rumors of the company eyeing a lithium miner may not be ill-founded.\r\nWhat Happened: Shares of Sigma Lithium Co… [+2000 chars]"
+    },
+    {
+      "id": 18,
+      "author": "Josephine Fuller",
+      "title": "Full list of stores closing doors with 10 retailers out – as ‘retail apocalypse’ shows no end... - The US Sun",
+      "description": "SHOPPERS across the country face shuttered stores as 10 retailers close their doors amid the “retail apocalypse.” Dennis Dick, a trader at Las Vegas-based Bright Trading LLC, was t…",
+      "url": "https://www.the-sun.com/money/7431525/full-list-stores-closing-doors-retail-apocalypse/",
+      "urlToImage": "https://www.the-sun.com/wp-content/uploads/sites/6/2023/01/NINTCHDBPICT000791374624.jpg?strip=all&quality=100&w=1920&h=1080&crop=1",
+      "publishedAt": "2023-02-18T18:53:42Z",
+      "content": "SHOPPERS across the country face shuttered stores as 10 retailers close their doors amid the \"retail apocalypse.\"\r\nDennis Dick, a trader at Las Vegas-based Bright Trading LLC, was the first one to us… [+4066 chars]"
+    },
+    {
+      "id": 19,
+      "author": "Sareen Habeshian",
+      "title": "World's largest food company warns prices will continue to rise - Axios",
+      "description": "Consumer giants continue to warn about more hikes to come as households struggle to buy groceries.",
+      "url": "https://www.axios.com/2023/02/18/nestle-warns-prices-rise",
+      "urlToImage": "https://images.axios.com/5AzjMRn_CwT1ZrpLe-4O7z8NPys=/0x606:5892x3920/1366x768/2023/02/18/1676741999333.jpg",
+      "publishedAt": "2023-02-18T18:22:33Z",
+      "content": "Nestlé, the worlds largest food company, said earlier this week that it is predicting that the prices of staple items will continue to rise this year.\r\nThe big picture: Following more than a year of … [+1527 chars]"
+    },
+    {
+      "id": 20,
+      "author": null,
+      "title": "JFK power outage: Terminal 1 to have normal, scheduled flight operations on Sunday after power outage - WABC-TV",
+      "description": "Terminal 1 is set to have normal, scheduled flight operations on Sunday after days of cancelations and delays.",
+      "url": "https://abc7ny.com/jfk-airport-terminal-1-power-disruption-flights-canceled/12837490/",
+      "urlToImage": "https://cdn.abcotvs.com/dip/images/12837557_021823-wabc-jfk-img.jpg?w=1600",
+      "publishedAt": "2023-02-18T17:13:07Z",
+      "content": "JAMAICA, Queens (WABC) -- JFK Airport's Terminal 1 is expected to have normal, schedule flight operations on Sunday after a substantial power outage.\r\nThe outage forced airlines to divert and cancel … [+3374 chars]"
     }
   ],
   "comments": [
@@ -43,63 +213,13 @@
       "postId": 1
     },
     {
-      "id": 2,
-      "firstName": "Ivan",
-      "lastName": "Ivanovich",
-      "surName": "Ivanov",
-      "email": "ivanov@ivan.kz",
-      "phone": "+77776663322",
-      "comment": "хыхы444",
-      "postId": 1
-    },
-    {
       "id": 3,
       "firstName": "Ivan",
       "lastName": "Ivanovich",
       "surName": "Ivanov",
       "email": "ivanov@ivan.kz",
       "phone": "+77776663322",
-      "comment": "asd safagasgsa gasgasg ag ag",
-      "postId": 2
-    },
-    {
-      "id": 4,
-      "firstName": "33Ivan",
-      "lastName": "33Ivanovich",
-      "surName": "33Ivanov",
-      "email": "33ivanov@ivan.kz",
-      "phone": "+77776663322",
-      "comment": "a33333333333333333333333333sd safagasgsa gasgasg ag ag",
-      "postId": 2
-    },
-    {
-      "id": 5,
-      "firstName": "33Ivan",
-      "lastName": "33Ivanovich",
-      "surName": "33Ivanov",
-      "email": "33ivanov@ivan.kz",
-      "phone": "+77776663322",
-      "comment": "a33333333333333333333333333sd safagasgsa gasgasg ag ag",
-      "postId": 2
-    },
-    {
-      "id": 6,
-      "firstName": "33Ivan",
-      "lastName": "33Ivanovich",
-      "surName": "33Ivanov",
-      "email": "33ivanov@ivan.kz",
-      "phone": "+77776663322",
-      "comment": "a33333333333333333333333333sd safagasgsa gasgasg ag ag",
-      "postId": 2
-    },
-    {
-      "id": 7,
-      "firstName": "33Ivan",
-      "lastName": "33Ivanovich",
-      "surName": "33Ivanov",
-      "email": "33ivanov@ivan.kz",
-      "phone": "+77776663322",
-      "comment": "a33333333333333333333333333sd safagasgsa gasgasg ag ag",
+      "comment": "test",
       "postId": 2
     },
     {
@@ -161,6 +281,26 @@
       "phone": "0123456789",
       "comment": "dqwdqwdq",
       "postId": "3"
+    },
+    {
+      "id": "u2gl08n6m5",
+      "firstName": "eqwe",
+      "lastName": "qwe",
+      "surName": "qwe",
+      "email": "qwe@we.ru",
+      "phone": "0123456789",
+      "comment": "qweqweqe",
+      "postId": "1"
+    },
+    {
+      "id": "rlid8tkmaop",
+      "firstName": "test",
+      "lastName": "test",
+      "surName": "test",
+      "email": "test@test.ru",
+      "phone": "87079929661",
+      "comment": "dsadasda d asd asd ",
+      "postId": "2"
     }
   ]
 }

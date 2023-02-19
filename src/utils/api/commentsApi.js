@@ -19,5 +19,6 @@ export const commentsApi = {
             }
         })
         return res.data.data
-    }
+    },
+    deleteComment: (id) => axios.delete(`comments/${id}`)
 }

@@ -1,7 +1,11 @@
 .footer {
     background-color: #2C2C32;
-    padding: 2rem .5rem;
+    padding: 1rem .5rem;
     text-align: right;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
 }
 /*a {*/
 /*    color: white;*/
