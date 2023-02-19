@@ -40,7 +40,7 @@ export const postSlice = createSlice({
     initialState,
     reducers: {
         searchPost(state, action) {
-            const  text  = action.payload.toLowerCase()
+            const text = action.payload.toLowerCase()
             if(text === '') {
                 state.searchResult = undefined
             } else {

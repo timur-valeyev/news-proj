@@ -5,9 +5,9 @@ import classes from './Comments.module.css'
 
 //components
 import {addComment, fetchComments} from '../../redux/slices/commentsSlice'
-import Comment from "../Comment"
-import InputFields from "../InputFields";
-import {validateForm} from "../../utils/validateForm";
+import Comment from '../Comment'
+import InputFields from '../InputFields'
+import {validateForm} from '../../utils/validateForm'
 
 
 const Comments = () => {

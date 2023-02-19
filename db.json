@@ -204,12 +204,12 @@
   "comments": [
     {
       "id": 1,
-      "firstName": "уйц",
-      "lastName": "Ivanуйцвovich",
-      "surName": "Ivaцысфысnov",
-      "email": "ivanoфысыфсv@ivan.kz",
+      "firstName": "Ivan",
+      "lastName": "Ivanovich",
+      "surName": "Ivanov",
+      "email": "ivanov@ivan.kz",
       "phone": "+77776663322",
-      "comment": "хапрпрпрпр\n",
+      "comment": "ddfdfdf",
       "postId": 1
     },
     {
@@ -283,16 +283,6 @@
       "postId": "3"
     },
     {
-      "id": "u2gl08n6m5",
-      "firstName": "eqwe",
-      "lastName": "qwe",
-      "surName": "qwe",
-      "email": "qwe@we.ru",
-      "phone": "0123456789",
-      "comment": "qweqweqe",
-      "postId": "1"
-    },
-    {
       "id": "rlid8tkmaop",
       "firstName": "test",
       "lastName": "test",
@@ -301,6 +291,12 @@
       "phone": "87079929661",
       "comment": "dsadasda d asd asd ",
       "postId": "2"
+    }
+  ],
+  "users": [
+    {
+      "role": "admin",
+      "password": "strongpass"
     }
   ]
 }

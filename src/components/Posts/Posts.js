@@ -5,7 +5,7 @@ import classes from './Posts.module.css'
 //components
 import {fetchPosts} from '../../redux/slices/postsSlice'
 import Post from '../Post'
-import NotFound from "../../pages/NotFound"
+import NotFound from '../../pages/NotFound'
 
 
 const Posts = () => {

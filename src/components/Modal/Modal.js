@@ -2,7 +2,8 @@ import React, {useEffect, useRef} from 'react'
 import ReactDOM from 'react-dom'
 import classes from './Modal.module.css'
 
-const Modal = ({ isOpen, onClose, children }) => {
+const Modal = (props) => {
+    const { isOpen, onClose, children } = props
     const modalRef = useRef()
 
     useEffect(() => {
@@ -28,7 +29,7 @@ const Modal = ({ isOpen, onClose, children }) => {
     }, [isOpen, onClose])
 
     return isOpen ? ReactDOM.createPortal(
-        <div className="modal" ref={modalRef}>
+        <div className='modal' ref={modalRef}>
             <div className={classes.modal}>
                 {children}
             </div>

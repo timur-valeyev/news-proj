@@ -17,7 +17,7 @@ const FullPost = () => {
     useEffect(() => {
         dispatch(fetchFullPost(id))
         dispatch(fetchComments(id))
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 0)
     }, [dispatch])
 
     return (

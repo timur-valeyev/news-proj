@@ -1,18 +1,20 @@
 import React from 'react'
 import classes from './Comment.module.css'
-import {useState} from "react"
-import {useDispatch} from "react-redux";
+import {useState} from 'react'
+import {useDispatch, useSelector} from 'react-redux'
 
 //Components
-import Modal from "../Modal"
-import UpdateComment from "../UpdateComment"
-import {deleteComment, fetchComments} from "../../redux/slices/commentsSlice";
+import Modal from '../Modal'
+import UpdateComment from '../UpdateComment'
+import {deleteComment, fetchComments} from '../../redux/slices/commentsSlice'
 
 
 const Comment = (props) => {
     const {id, firstName, lastName, surName, comment, postId} = props
     const [isModalOpen, setIsModalOpen] = useState(false)
+    const loggedIn = useSelector(state => state.auth.login)
     const dispatch = useDispatch()
+
     const handleOpenModal = () => {
         setIsModalOpen(true)
     }
@@ -36,7 +38,7 @@ const Comment = (props) => {
                 </div>
                 <div className={classes.buttons}>
                     <button onClick={handleOpenModal}>Редактировать комментарий</button>
-                    <button onClick={removeComment}>Удалить</button>
+                    {loggedIn && <button onClick={removeComment}>Удалить</button>}
                 </div>
                 <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
                     <UpdateComment id={id} onClose={handleCloseModal} />

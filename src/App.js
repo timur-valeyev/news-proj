@@ -5,7 +5,7 @@ import React from 'react'
 import NotFound from './pages/NotFound'
 import FullPost from './components/FullPost'
 import Layout from './components/Layout'
-import Posts from "./components/Posts"
+import Posts from './components/Posts'
 
 
 function App() {

@@ -37,14 +37,14 @@ export const updateComment = createAsyncThunk(
     'comments/updateComment',
     async (obj, thunkAPI) => {
         const body = {
-            "id": obj.id,
-            "firstName": "Ivan",
-            "lastName": "Ivanovich",
-            "surName": "Ivanov",
-            "email": "ivanov@ivan.kz",
-            "phone": "+77776663322",
-            "comment": obj.comment,
-            "postId": obj.postId
+            'id': obj.id,
+            'firstName': 'Ivan',
+            'lastName': 'Ivanovich',
+            'surName': 'Ivanov',
+            'email': 'ivanov@ivan.kz',
+            'phone': '+77776663322',
+            'comment': obj.comment,
+            'postId': obj.postId
         }
         try {
             await commentsApi.updateComment(body).then(response => {

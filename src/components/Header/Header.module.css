@@ -1,8 +1,10 @@
 .header {
     background-color: #2C2C32;
-    padding: 2rem 0;
+    padding: 2rem .5rem;
     position: fixed;
     top: 0;
     width: 100%;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
 }

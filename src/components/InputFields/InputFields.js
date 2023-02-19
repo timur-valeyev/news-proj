@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './InputFields.module.css'
-import InputField from "../InputField";
+import InputField from '../InputField'
 
 const InputFields = (props) => {
     const {formData, formErrors, handleInputChange} = props
@@ -11,9 +11,9 @@ const InputFields = (props) => {
                 <span className={classes.error}>{formErrors.surName}</span>
             )}
             <InputField
-                placeholder="Фамилия"
-                name="surName"
-                type="text"
+                placeholder='Фамилия'
+                name='surName'
+                type='text'
                 value={formData.surName}
                 onChange={handleInputChange}
             />
@@ -21,9 +21,9 @@ const InputFields = (props) => {
                 <span className={classes.error}>{formErrors.firstName}</span>
             )}
             <InputField
-                placeholder="Имя"
-                name="firstName"
-                type="text"
+                placeholder='Имя'
+                name='firstName'
+                type='text'
                 value={formData.firstName}
                 onChange={handleInputChange}
             />
@@ -31,8 +31,8 @@ const InputFields = (props) => {
                 <span className={classes.error}>{formErrors.lastName}</span>
             )}
             <InputField
-                placeholder="Очество"
-                name="lastName"
+                placeholder='Очество'
+                name='lastName'
                 type="text"
                 value={formData.lastName}
                 onChange={handleInputChange}

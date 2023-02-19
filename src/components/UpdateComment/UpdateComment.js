@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import {useDispatch, useSelector} from "react-redux"
-import {fetchComments, updateComment} from "../../redux/slices/commentsSlice"
+import {useDispatch, useSelector} from 'react-redux'
+import {fetchComments, updateComment} from '../../redux/slices/commentsSlice'
 import classes from './UpdateComment.module.css'
 
 
